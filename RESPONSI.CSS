@@ -1,0 +1,91 @@
+/* Menambahkan properti max-width pada elemen img untuk mengubah ukuran gambar */
+img.small-image {
+    max-width: 8cm; /* Mengatur lebar maksimum gambar sesuai dengan lebar parent (article dan aside) */
+    height: auto; /* Mengatur tinggi secara otomatis agar gambar tidak terdistorsi */
+    display: block; /* Mengatur elemen img sebagai blok agar dapat menggunakan margin: auto */
+    margin: auto; /* Menengahkan gambar */
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif; /* Mengubah jenis font menjadi Times New Roman */
+    background-image: url('path/to/your/image.jpg');
+    background-color: #ec0688; /* Hijau tua */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Bayangan teks */
+    text-align: left; /* Menjadikan judul rata kiri */
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#content {
+    width: 70%;
+    background-color: rgba(245, 245, 245, 0.8); /* Warna putih dengan transparansi 80% */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black(247, 247, 247, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2, aside h2 {
+    text-align: center; /* Menengahkan teks */
+}
+
+aside {
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.8); /* Warna putih dengan transparansi 80% */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(221, 9, 164);
+}
+
+footer {
+    background-color: rgba(30, 29, 29, 0.5); /* Warna hitam dengan transparansi 50% */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+    text-align: center; /* Menengahkan teks */
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif; /* Mengubah jenis font menjadi Times New Roman */
+    text-align: justify; /* Meratakan teks kanan kiri */
+}
+
+aside p:last-child {
+    font-weight: bold; /* Membuat teks pada elemen p terakhir di dalam aside menjadi tebal */
+}
